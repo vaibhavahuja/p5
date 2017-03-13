@@ -48,7 +48,7 @@ if ((y<msY || y>msY+80)&& x == 0){
 // computer 
 
 
-if (x>width/2){
+if (x>width*2/3){
 	if (pco>y){
 		pco -= 4.90;
 	}
