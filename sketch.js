@@ -48,13 +48,17 @@ if ((y<msY || y>msY+80)&& x == 0){
 // computer 
 
 
+if (x>width/2){
+	if (pco>y){
+		pco -= 4.90;
+	}
+	else {
+		pco += 4.90;
+	}
+} else {
+	pco += 0;
+}
 
-if (pco>y){
-	pco -= 4.95;
-}
-else {
-	pco += 4.95;
-}
 
 fill(255);
 noStroke();
